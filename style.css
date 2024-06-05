@@ -1,0 +1,163 @@
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+.container{
+    width: 420px;
+    background: #ebecf0;
+    border: 2px rgba(76,68,182,0.808);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+.container h1{
+    color: rgba(76,68,182,0.808);
+    font-size: 36px;
+    text-align: center;
+}
+.form-group{
+    margin-bottom:30px;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.btn{
+    height: 35px;
+    background: rgba(76,68,182,0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.form-group input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+  }
+
+.wrapper{
+    width: 420px;
+    background: #ebecf0;
+    border: 2px rgba(76,68,182,0.808);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .wrapper h1{
+    color: rgba(76,68,182,0.808);
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+  }
+  .input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px;
+    padding-right: 45px;
+    outline: none;
+}
+
+.open {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    width: 20px;
+    cursor: pointer;
+}
+.mess {
+  color: black;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+
+  .wrapper .forget{
+    display: flex;
+    color: rgba(76,68,182,0.808);
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .forget label input{
+    accent-color: rgba(76,68,182,0.808);
+    margin-right: 3px;
+  
+  }
+  .forget a{
+    color: rgba(76,68,182,0.808);
+    text-decoration: none;
+  
+  }
+  .forget a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: rgba(76,68,182,0.808);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  .wrapper .register-link{
+    color: rgba(76,68,182,0.808);
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+  .register-link p a{
+    color: rgba(76,68,182,0.808);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
+  .box{
+    width:200px;
+    height:200px;
+    margin-right:200px;
+  }
+
